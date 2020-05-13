@@ -1,0 +1,15 @@
+BackGround : 3 / ForeGround : 3
+Start : (1169, 322) / Door : (194, 1476)
+ == Line Collider == 
+0
+ == Spawner == 
+3
+Length : 6
+Twizzy
+SpawnerPos : (132, 598) / DirLeft : 0 / bCount : 1 / iCount : 1
+Length : 5
+Sleep
+SpawnerPos : (567, 1002) / DirLeft : 0 / bCount : 1 / iCount : 1
+Length : 6
+Grizoo
+SpawnerPos : (60, 1281) / DirLeft : 0 / bCount : 1 / iCount : 1

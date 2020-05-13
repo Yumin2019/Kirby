@@ -1,0 +1,10 @@
+BackGround : 1 / ForeGround : 8
+Start : (96, 623) / Door : (1191, 627)
+ == Line Collider == 
+1
+src : (0, 0) / dest : (0, 0)
+ == Spawner == 
+1
+Length : 5
+Rocky
+SpawnerPos : (895, 645) / DirLeft : 1 / bCount : 1 / iCount : 1

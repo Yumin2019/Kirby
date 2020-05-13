@@ -1,0 +1,8 @@
+BackGround : 14 / ForeGround : 4
+Start : (128, 833) / Door : (2515, 457)
+ == Line Collider == 
+2
+src : (796, 942) / dest : (983, 871)
+src : (4045, 867) / dest : (4224, 947)
+ == Spawner == 
+0

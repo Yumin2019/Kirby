@@ -1,0 +1,20 @@
+BackGround : 1 / ForeGround : 1
+Start : (100, 520) / Door : (7740, 750)
+ == Line Collider == 
+1
+src : (4319, 584) / dest : (4799, 836)
+ == Spawner == 
+4
+Length : 4
+Mike
+SpawnerPos : (2000, 400) / DirLeft : 1 / bCount : 1 / iCount : 1
+Length : 5
+Rocky
+SpawnerPos : (6000, 400) / DirLeft : 1 / bCount : 1 / iCount : 1
+Length : 6
+Grizoo
+SpawnerPos : (4000, 400) / DirLeft : 1 / bCount : 1 / iCount : 1
+Length : 6
+Twizzy
+SpawnerPos : (5000, 400) / DirLeft : 1 / bCount : 0 / iCount : 0
+

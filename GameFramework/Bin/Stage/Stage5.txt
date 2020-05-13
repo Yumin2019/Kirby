@@ -1,0 +1,44 @@
+BackGround : 12 / ForeGround : 6
+Start : (429, 256) / Door : (8569, 313)
+ == Line Collider == 
+5
+src : (0, 0) / dest : (0, 0)
+src : (3240, 471) / dest : (3470, 720)
+src : (4628, 719) / dest : (4883, 470)
+src : (6115, 468) / dest : (6429, 786)
+src : (7900, 793) / dest : (8062, 644)
+ == Spawner == 
+11
+Length : 6
+Twizzy
+SpawnerPos : (2074, 716) / DirLeft : 1 / bCount : 1 / iCount : 3
+Length : 6
+Twizzy
+SpawnerPos : (4368, 324) / DirLeft : 1 / bCount : 1 / iCount : 3
+Length : 6
+Grizoo
+SpawnerPos : (5662, 658) / DirLeft : 1 / bCount : 1 / iCount : 1
+Length : 5
+Blade
+SpawnerPos : (3972, 631) / DirLeft : 1 / bCount : 1 / iCount : 1
+Length : 4
+Burt
+SpawnerPos : (6250, 336) / DirLeft : 1 / bCount : 0 / iCount : 0
+Length : 4
+Burt
+SpawnerPos : (5780, 172) / DirLeft : 1 / bCount : 0 / iCount : 0
+Length : 4
+Burt
+SpawnerPos : (5194, 241) / DirLeft : 1 / bCount : 0 / iCount : 0
+Length : 5
+Rocky
+SpawnerPos : (6920, 726) / DirLeft : 1 / bCount : 1 / iCount : 1
+Length : 6
+Grizoo
+SpawnerPos : (8686, 545) / DirLeft : 1 / bCount : 1 / iCount : 2
+Length : 5
+Rocky
+SpawnerPos : (7607, 725) / DirLeft : 1 / bCount : 1 / iCount : 2
+Length : 6
+Twizzy
+SpawnerPos : (2911, 382) / DirLeft : 1 / bCount : 1 / iCount : 4

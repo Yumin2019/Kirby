@@ -1,0 +1,116 @@
+#pragma once
+
+
+enum SCENE_TYPE
+{
+	ST_NONE,
+	ST_SCENE1,
+	ST_SCENE2,
+	ST_SCENE3,
+	ST_SCENE4,
+	ST_SCENE5,
+	ST_DDDSCENE,
+	ST_ENDINGSCENE
+};
+enum MONSTER_TYPE
+{
+	MT_NORMAL,
+	MT_MIKE,
+	MT_SWORD,
+	MT_STONE,
+	MT_SLEEP
+};
+
+enum MONSTER_MODE
+{
+	MM_IDLE,
+	MM_ATTACK,
+	MM_STOP
+};
+
+enum INPUT_EVENT
+{
+	IE_PRESS,
+	IE_UP,
+	IE_DOUBLE,
+	IE_HOLD
+	// 입력 이벤트로는, 눌렀는지, 눌렀다가 올린 상태, 더블 클릭, 누르고 있는 상태가 있다.
+};
+
+enum COLLIDER_TYPE
+{
+	CT_RECT,
+	CT_SPHERE,
+	CT_POINT,
+	CT_PIXEL,
+	CT_LINE
+};
+
+enum DIR
+{
+	LEFT,
+	RIGHT,
+	UP,
+	DOWN,
+	DIR_END
+};
+
+enum COLLISION_CHANNEL_STATE
+{
+	CCS_BLOCK,
+	CCS_IGNORE
+};
+
+enum COLLISION_STATE
+{
+	CS_BLOCK,
+	CS_OVERLAP,
+	CS_RELEASE,
+	CS_END
+};
+
+enum ANIMATION_OPTION
+{
+	AO_LOOP,
+	AO_ONCE_RETURN,
+	AO_ONCE_DESTROY,
+	AO_ONCE_LOOP,
+	AO_TIME_DESTROY,
+	AO_END
+};
+
+enum SCENE_CHANGE
+{
+	SC_NONE,
+	SC_CHANGE
+};
+
+enum ANIMATION_TYPE
+{
+	AT_ATLAS,
+	AT_FRAME
+};
+
+enum SIDE_DIR
+{
+	SD_NONE = -1,
+	SD_LEFT,
+	SD_RIGHT,
+	SD_END
+};
+
+enum GAME_MODE
+{
+	GM_START,
+	GM_PLAY,
+	GM_ANIMATION_EDIT,
+	GM_MAP_EDIT
+};
+
+enum TILE_OPTION
+{
+	TO_NONE,
+	TO_NORMAL,
+	TO_WALL,
+	TO_END
+};

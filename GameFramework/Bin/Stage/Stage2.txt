@@ -1,0 +1,35 @@
+BackGround : 2 / ForeGround : 2
+Start : (105, 907) / Door : (7183, 769)
+ == Line Collider == 
+8
+src : (0, 0) / dest : (0, 0)
+src : (956, 998) / dest : (1300, 837)
+src : (1994, 836) / dest : (2319, 994)
+src : (3277, 994) / dest : (3460, 826)
+src : (3462, 822) / dest : (3783, 685)
+src : (4450, 687) / dest : (4768, 835)
+src : (4769, 837) / dest : (4950, 993)
+src : (6649, 989) / dest : (6808, 833)
+ == Spawner == 
+7
+Length : 6
+Twizzy
+SpawnerPos : (1637, 710) / DirLeft : 1 / bCount : 0 / iCount : 0
+Length : 5
+Blade
+SpawnerPos : (3148, 910) / DirLeft : 1 / bCount : 1 / iCount : 1
+Length : 6
+Grizoo
+SpawnerPos : (4202, 582) / DirLeft : 1 / bCount : 1 / iCount : 1
+Length : 4
+Burt
+SpawnerPos : (5285, 869) / DirLeft : 1 / bCount : 0 / iCount : 0
+Length : 4
+Burt
+SpawnerPos : (5491, 696) / DirLeft : 1 / bCount : 0 / iCount : 0
+Length : 4
+Burt
+SpawnerPos : (5687, 513) / DirLeft : 1 / bCount : 0 / iCount : 0
+Length : 6
+Twizzy
+SpawnerPos : (5917, 440) / DirLeft : 1 / bCount : 0 / iCount : 0

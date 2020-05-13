@@ -1,0 +1,559 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\01. GameManager">
+      <UniqueIdentifier>{9de926e0-24e2-41e2-a3b9-987f357f3f01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Input">
+      <UniqueIdentifier>{af9cbd20-ac16-4f98-acf1-6b04efc14337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Scene">
+      <UniqueIdentifier>{cc01626a-5e98-4dc3-a6da-5f89793ae006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Timer">
+      <UniqueIdentifier>{f4ffe336-a798-43ec-ab74-c1ec1f98078c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. Object">
+      <UniqueIdentifier>{9ac5b1bc-74cc-42a2-a387-75262762cad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. Resource">
+      <UniqueIdentifier>{ce5156b2-1092-4a03-98bc-4110e0935b3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. Object\01. CCharacter">
+      <UniqueIdentifier>{1fb5bf57-c17d-4d49-8722-09d78f29adea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\07. Collision">
+      <UniqueIdentifier>{546f7933-8a05-4a44-a0ef-35d21a55b6e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\08. Animation">
+      <UniqueIdentifier>{7795b27b-0d58-4512-8ff2-0a3ea8036eeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. Object\01. CCharacter\01. Player">
+      <UniqueIdentifier>{799c844f-9aeb-4757-95a8-a9bda0b06333}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. Object\01. CCharacter\02. Monster">
+      <UniqueIdentifier>{fb8a1949-2622-4d3c-ae01-b4dee8223383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\09. EditManager">
+      <UniqueIdentifier>{a8990e55-017c-4509-a85b-a5567b55a916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. Object\03. UI">
+      <UniqueIdentifier>{7466fb73-fe3c-415d-8a11-acf86b5a2c84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. Object\04. Effect">
+      <UniqueIdentifier>{2efaf3d4-8883-4144-b05c-e5f610cf5ecb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. Object\05. Stage">
+      <UniqueIdentifier>{eafd52f5-4ffd-46bf-ac1f-e1ce65e6d2c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. Object\04. Effect\01. Bullet">
+      <UniqueIdentifier>{bcaa8b9a-e626-47e9-bc0d-6b369069b51c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. Object\05. Stage\01. Spawner">
+      <UniqueIdentifier>{ebb9d923-c0c3-4351-995b-2b93a88a5dad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. Object\01. CCharacter\01. Player\01. MikeObject">
+      <UniqueIdentifier>{f879346b-a60a-4200-bf2b-229916c4360b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. Object\01. CCharacter\02. Monster\01. NormalEnemy">
+      <UniqueIdentifier>{2707ea08-fcb4-4490-8410-13d69ad8cca0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Scene\01. Start">
+      <UniqueIdentifier>{349609e1-eb0d-4771-803f-77d1abed2ff7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Scene\02. MainScene">
+      <UniqueIdentifier>{cee06d1e-fc49-48ef-80e5-f12d7f1b4422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Scene\04. Edit">
+      <UniqueIdentifier>{b0fdaaf8-e3d1-4737-91fa-df57045422e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Scene\02. MainScene\02. DDDScene">
+      <UniqueIdentifier>{ce6b30b5-c52f-44b9-87b3-d6885f787e6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Scene\02. MainScene\01. StageScene">
+      <UniqueIdentifier>{13c8162b-65d4-4028-b97f-1d42fb0c641d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. Object\06. Animation Object">
+      <UniqueIdentifier>{451595ee-4df7-48ec-86c5-b06d8d630134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. Object\06. Animation Object\01. Grass">
+      <UniqueIdentifier>{025c6ef4-47ef-4c6c-880a-56219caf2932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. Object\01. CCharacter\02. Monster\02. AbilityMonster">
+      <UniqueIdentifier>{5f66b6f6-e36b-45f9-8e1e-7c6183bf50d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. Object\01. CCharacter\02. Monster\03. Boss">
+      <UniqueIdentifier>{869f26f4-1325-467f-9b2b-542fd4912040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. Object\03. UI\01. TargetUI">
+      <UniqueIdentifier>{f7e37915-59cd-4a62-95bb-00452b6fc3bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. Object\03. UI\01. TargetUI\01. AbilityName">
+      <UniqueIdentifier>{33ab8fa7-b0b8-4d98-8dc6-e7e6e619d20f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. Object\03. UI\01. TargetUI\02. AbilityImage">
+      <UniqueIdentifier>{f3add7c7-c1b7-428d-ba36-5964f6b8c08a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. Object\03. UI\01. TargetUI\03. HP HUD">
+      <UniqueIdentifier>{4666ca80-02c0-4781-812f-318016c7b3db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. Object\04. Effect\02. Star">
+      <UniqueIdentifier>{d274a3a7-c083-476c-b0d9-4335f8a82f04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. Object\04. Effect\02. Star\01. JumpStar">
+      <UniqueIdentifier>{97734a4c-80eb-4ef8-884b-a89d40181c3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. Object\04. Effect\02. Star\02. MoveStar">
+      <UniqueIdentifier>{29bac345-e549-4c1e-a0b3-62da11989f1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. Object\05. Stage\02. Door">
+      <UniqueIdentifier>{c35e091f-7577-43d8-81cc-4a8be3a4bf34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. Object\05. Stage\03. Tile">
+      <UniqueIdentifier>{8de537db-dbe9-477e-9fcc-a711d37701b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. Object\03. UI\01. TargetUI\04. BossHP">
+      <UniqueIdentifier>{29ff0240-d5a5-4caa-913c-2ad1a0549812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10. SoundManager">
+      <UniqueIdentifier>{35547040-b4a9-4a85-87bd-930af27c7a0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Scene\02. MainScene\01. StageScene\02. EndingScene">
+      <UniqueIdentifier>{8a91d01a-3e03-417f-a39f-7286717d9a10}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\GameManager.h">
+      <Filter>소스 파일\01. GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>소스 파일\03. Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Input.h">
+      <Filter>소스 파일\02. Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Flag.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Scene.h">
+      <Filter>소스 파일\04. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Ref.h">
+      <Filter>소스 파일\01. GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\SceneManager.h">
+      <Filter>소스 파일\04. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\PathManager.h">
+      <Filter>소스 파일\01. GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\ResourceManager.h">
+      <Filter>소스 파일\06. Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Obj.h">
+      <Filter>소스 파일\05. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Layer.h">
+      <Filter>소스 파일\04. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Character.h">
+      <Filter>소스 파일\05. Object\01. CCharacter</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\Collider.h">
+      <Filter>소스 파일\07. Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\CollisionManager.h">
+      <Filter>소스 파일\07. Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialNumber.h">
+      <Filter>소스 파일\01. GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>소스 파일\06. Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\Animation.h">
+      <Filter>소스 파일\08. Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\ColliderPoint.h">
+      <Filter>소스 파일\07. Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\ColliderRect.h">
+      <Filter>소스 파일\07. Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\ColliderSphere.h">
+      <Filter>소스 파일\07. Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="InputComponent.h">
+      <Filter>소스 파일\02. Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Monster.h">
+      <Filter>소스 파일\05. Object\01. CCharacter\02. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Player.h">
+      <Filter>소스 파일\05. Object\01. CCharacter\01. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\EditManager.h">
+      <Filter>소스 파일\09. EditManager</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UI.h">
+      <Filter>소스 파일\05. Object\03. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UIImage.h">
+      <Filter>소스 파일\05. Object\03. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Twizzy.h">
+      <Filter>소스 파일\05. Object\01. CCharacter\02. Monster\01. NormalEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Burt.h">
+      <Filter>소스 파일\05. Object\01. CCharacter\02. Monster\01. NormalEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Grizoo.h">
+      <Filter>소스 파일\05. Object\01. CCharacter\02. Monster\01. NormalEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Effect.h">
+      <Filter>소스 파일\05. Object\04. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Stage.h">
+      <Filter>소스 파일\05. Object\05. Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UIButton.h">
+      <Filter>소스 파일\05. Object\03. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\ColliderLine.h">
+      <Filter>소스 파일\07. Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Bullet.h">
+      <Filter>소스 파일\05. Object\04. Effect\01. Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Spawner.h">
+      <Filter>소스 파일\05. Object\05. Stage\01. Spawner</Filter>
+    </ClInclude>
+    <ClInclude Include="MikeObject.h">
+      <Filter>소스 파일\05. Object\01. CCharacter\01. Player\01. MikeObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\DDD.h">
+      <Filter>소스 파일\05. Object\01. CCharacter\02. Monster\03. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\MainScene.h">
+      <Filter>소스 파일\04. Scene\02. MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\StartScene.h">
+      <Filter>소스 파일\04. Scene\01. Start</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\AnimationEditScene.h">
+      <Filter>소스 파일\04. Scene\04. Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\MapEditScene.h">
+      <Filter>소스 파일\04. Scene\04. Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Stage1Scene.h">
+      <Filter>소스 파일\04. Scene\02. MainScene\01. StageScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\DDDScene.h">
+      <Filter>소스 파일\04. Scene\02. MainScene\02. DDDScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Grass.h">
+      <Filter>소스 파일\05. Object\06. Animation Object\01. Grass</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\BladeKnight.h">
+      <Filter>소스 파일\05. Object\01. CCharacter\02. Monster\02. AbilityMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Mike.h">
+      <Filter>소스 파일\05. Object\01. CCharacter\02. Monster\02. AbilityMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Rocky.h">
+      <Filter>소스 파일\05. Object\01. CCharacter\02. Monster\02. AbilityMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Sleep.h">
+      <Filter>소스 파일\05. Object\01. CCharacter\02. Monster\02. AbilityMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\TargetUI.h">
+      <Filter>소스 파일\05. Object\03. UI\01. TargetUI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\HPHud.h">
+      <Filter>소스 파일\05. Object\03. UI\01. TargetUI\03. HP HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\AbilityImage.h">
+      <Filter>소스 파일\05. Object\03. UI\01. TargetUI\02. AbilityImage</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\AbilityName.h">
+      <Filter>소스 파일\05. Object\03. UI\01. TargetUI\01. AbilityName</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Star.h">
+      <Filter>소스 파일\05. Object\04. Effect\02. Star</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\JumpStar.h">
+      <Filter>소스 파일\05. Object\04. Effect\02. Star\01. JumpStar</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\MoveStar.h">
+      <Filter>소스 파일\05. Object\04. Effect\02. Star\02. MoveStar</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>소스 파일\05. Object\05. Stage\03. Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Door.h">
+      <Filter>소스 파일\05. Object\05. Stage\02. Door</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\AniObject.h">
+      <Filter>소스 파일\05. Object\06. Animation Object</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\BossHP.h">
+      <Filter>소스 파일\05. Object\03. UI\01. TargetUI\04. BossHP</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Stage2Scene.h">
+      <Filter>소스 파일\04. Scene\02. MainScene\01. StageScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Stage3Scene.h">
+      <Filter>소스 파일\04. Scene\02. MainScene\01. StageScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\SoundManager.h">
+      <Filter>소스 파일\10. SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Stage5Scene.h">
+      <Filter>소스 파일\04. Scene\02. MainScene\01. StageScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Stage4Scene.h">
+      <Filter>소스 파일\04. Scene\02. MainScene\01. StageScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\EndingScene.h">
+      <Filter>소스 파일\04. Scene\02. MainScene\01. StageScene\02. EndingScene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core\GameManager.cpp">
+      <Filter>소스 파일\01. GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>소스 파일\03. Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Input.cpp">
+      <Filter>소스 파일\02. Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Scene.cpp">
+      <Filter>소스 파일\04. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Ref.cpp">
+      <Filter>소스 파일\01. GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\SceneManager.cpp">
+      <Filter>소스 파일\04. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\PathManager.cpp">
+      <Filter>소스 파일\01. GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\ResourceManager.cpp">
+      <Filter>소스 파일\06. Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Obj.cpp">
+      <Filter>소스 파일\05. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Layer.cpp">
+      <Filter>소스 파일\04. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Character.cpp">
+      <Filter>소스 파일\05. Object\01. CCharacter</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\Collider.cpp">
+      <Filter>소스 파일\07. Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\CollisionManager.cpp">
+      <Filter>소스 파일\07. Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialNumber.cpp">
+      <Filter>소스 파일\01. GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>소스 파일\06. Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\Animation.cpp">
+      <Filter>소스 파일\08. Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\ColliderRect.cpp">
+      <Filter>소스 파일\07. Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\ColliderPoint.cpp">
+      <Filter>소스 파일\07. Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\ColliderSphere.cpp">
+      <Filter>소스 파일\07. Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="InputComponent.cpp">
+      <Filter>소스 파일\02. Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Monster.cpp">
+      <Filter>소스 파일\05. Object\01. CCharacter\02. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Player.cpp">
+      <Filter>소스 파일\05. Object\01. CCharacter\01. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\EditManager.cpp">
+      <Filter>소스 파일\09. EditManager</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UI.cpp">
+      <Filter>소스 파일\05. Object\03. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UIImage.cpp">
+      <Filter>소스 파일\05. Object\03. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Burt.cpp">
+      <Filter>소스 파일\05. Object\01. CCharacter\02. Monster\01. NormalEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Twizzy.cpp">
+      <Filter>소스 파일\05. Object\01. CCharacter\02. Monster\01. NormalEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Grizoo.cpp">
+      <Filter>소스 파일\05. Object\01. CCharacter\02. Monster\01. NormalEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Effect.cpp">
+      <Filter>소스 파일\05. Object\04. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Stage.cpp">
+      <Filter>소스 파일\05. Object\05. Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UIButton.cpp">
+      <Filter>소스 파일\05. Object\03. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderLine.cpp">
+      <Filter>소스 파일\07. Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>소스 파일\05. Object\04. Effect\01. Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Spawner.cpp">
+      <Filter>소스 파일\05. Object\05. Stage\01. Spawner</Filter>
+    </ClCompile>
+    <ClCompile Include="MikeObject.cpp">
+      <Filter>소스 파일\05. Object\01. CCharacter\01. Player\01. MikeObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\DDD.cpp">
+      <Filter>소스 파일\05. Object\01. CCharacter\02. Monster\03. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\MainScene.cpp">
+      <Filter>소스 파일\04. Scene\02. MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\StartScene.cpp">
+      <Filter>소스 파일\04. Scene\01. Start</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\AnimationEditScene.cpp">
+      <Filter>소스 파일\04. Scene\04. Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\MapEditScene.cpp">
+      <Filter>소스 파일\04. Scene\04. Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Stage1Scene.cpp">
+      <Filter>소스 파일\04. Scene\02. MainScene\01. StageScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\DDDScene.cpp">
+      <Filter>소스 파일\04. Scene\02. MainScene\02. DDDScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Grass.cpp">
+      <Filter>소스 파일\05. Object\06. Animation Object\01. Grass</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Rocky.cpp">
+      <Filter>소스 파일\05. Object\01. CCharacter\02. Monster\02. AbilityMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Sleep.cpp">
+      <Filter>소스 파일\05. Object\01. CCharacter\02. Monster\02. AbilityMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Mike.cpp">
+      <Filter>소스 파일\05. Object\01. CCharacter\02. Monster\02. AbilityMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\BladeKnight.cpp">
+      <Filter>소스 파일\05. Object\01. CCharacter\02. Monster\02. AbilityMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\TargetUI.cpp">
+      <Filter>소스 파일\05. Object\03. UI\01. TargetUI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\HPHud.cpp">
+      <Filter>소스 파일\05. Object\03. UI\01. TargetUI\03. HP HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\AbilityImage.cpp">
+      <Filter>소스 파일\05. Object\03. UI\01. TargetUI\02. AbilityImage</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\AbilityName.cpp">
+      <Filter>소스 파일\05. Object\03. UI\01. TargetUI\01. AbilityName</Filter>
+    </ClCompile>
+    <ClCompile Include="Star.cpp">
+      <Filter>소스 파일\05. Object\04. Effect\02. Star</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\JumpStar.cpp">
+      <Filter>소스 파일\05. Object\04. Effect\02. Star\01. JumpStar</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\MoveStar.cpp">
+      <Filter>소스 파일\05. Object\04. Effect\02. Star\02. MoveStar</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>소스 파일\05. Object\05. Stage\03. Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Door.cpp">
+      <Filter>소스 파일\05. Object\05. Stage\02. Door</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\AniObject.cpp">
+      <Filter>소스 파일\05. Object\06. Animation Object</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\BossHP.cpp">
+      <Filter>소스 파일\05. Object\03. UI\01. TargetUI\04. BossHP</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Stage3Scene.cpp">
+      <Filter>소스 파일\04. Scene\02. MainScene\01. StageScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Stage2Scene.cpp">
+      <Filter>소스 파일\04. Scene\02. MainScene\01. StageScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\SoundManager.cpp">
+      <Filter>소스 파일\10. SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Stage5Scene.cpp">
+      <Filter>소스 파일\04. Scene\02. MainScene\01. StageScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Stage4Scene.cpp">
+      <Filter>소스 파일\04. Scene\02. MainScene\01. StageScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\EndingScene.cpp">
+      <Filter>소스 파일\04. Scene\02. MainScene\01. StageScene\02. EndingScene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameFramework.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
